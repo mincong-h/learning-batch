@@ -21,6 +21,8 @@ SET sentence=My name is XXX.
 ECHO %sentence%
 SET sentence=%sentence:XXX=Tom%
 ECHO %sentence%
+SET sentence=%sentence:YYY=Cat%
+ECHO %sentence%
 
 :: Split String
 ::
