@@ -11,6 +11,10 @@ Clear screen | <kbd>CTRL</kbd> + <kbd>K</kbd> | - | X | X | Clear screen shortcu
 List files | `dir` | X | - | - | List files of the current directory.
 List files | `ls`  | - | X | X | List files of the current directory.
 Hashing | `certUtil` | X | X | X | Verify checksum<br>`certUtil -hashfile \path\To\File [HashAlgorithm]`
+Command type | `type` | - | - | X | Type of the current command.
+Print file | `type` | X | X | - | Print file content.
+Print file | `Get-Content` | - | X | - | Print file content.
+Print file | `cat` | - | - | X | Print file content.
 
 - **CMD**: Windows Command Prompt
 - **PS**: Windows PowerShell
