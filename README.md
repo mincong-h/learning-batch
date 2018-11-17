@@ -19,3 +19,19 @@ Print file | `cat` | - | - | X | Print file content.
 - **CMD**: Windows Command Prompt
 - **PS**: Windows PowerShell
 - **MinGW**: Minimalist GNU for Windows
+
+## Debug
+
+Echo each line executed by enabling the echo. Or do nothing, since this is the default behavior:
+
+```bat
+@ECHO ON
+```
+
+Do not echo each line executed by disabling the echo:
+
+```bat
+@ECHO OFF
+```
+
+See: [What does “@” mean in Windows batch scripts](https://stackoverflow.com/questions/8486042/what-does-mean-in-windows-batch-scripts)
